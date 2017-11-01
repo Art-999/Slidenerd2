@@ -26,6 +26,7 @@ public class CustomAdapter2 extends ArrayAdapter<String> {
         this.context=context;
         this.titleArray=titles;
         this.descriptionArray=descriptions;
+        this.images=images;
     }
 
     class MyViewHolder{
@@ -53,9 +54,11 @@ public class CustomAdapter2 extends ArrayAdapter<String> {
         else {
             holder= (MyViewHolder) row.getTag();
         }
+
+        holder.myImage.setImageResource(images[position]);
         holder.myTitle.setText(titleArray[position]);
         holder.myDescription.setText(descriptionArray[position]);
-        holder.myImage.setImageResource(images[position]);
+
         return row;
     }
 }
