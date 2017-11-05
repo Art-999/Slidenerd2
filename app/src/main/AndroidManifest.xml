@@ -11,15 +11,18 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
         <activity android:name=".MainActivity2" />
-        <activity android:name=".example2"></activity>
+        <activity android:name=".example2" />
         <activity android:name=".ListViewWithCustomAdapter">
+
+        </activity>
+        <activity android:name=".ListViewWithBaseAdapter" />
+        <activity android:name=".ListView3">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ListViewWithBaseAdapter"></activity>
     </application>
 
 </manifest>

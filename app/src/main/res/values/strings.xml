@@ -19,4 +19,16 @@
         <item>This is meme description 6</item>
         <item>This is meme description 7</item>
     </string-array>
+    <string-array name="countries">
+        <item>Armenia</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Bolivia</item>
+        <item>Brazil</item>
+        <item>Bulgaria</item>
+        <item>Canada</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Cuba</item>
+    </string-array>
 </resources>

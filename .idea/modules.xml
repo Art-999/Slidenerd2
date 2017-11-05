@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Slidenerd2.iml" filepath="$PROJECT_DIR$/Slidenerd2.iml" />
+      <module fileurl="file://H:\Android\Examples2017\Slidenerd2\Slidenerd2.iml" filepath="H:\Android\Examples2017\Slidenerd2\Slidenerd2.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://H:\Android\Examples2017\Slidenerd2\app\app.iml" filepath="H:\Android\Examples2017\Slidenerd2\app\app.iml" />
     </modules>
   </component>
 </project>
